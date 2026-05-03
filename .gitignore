@@ -1,0 +1,7 @@
+﻿.venv/
+runs/
+*.log
+__pycache__/
+.DS_Store
+*.pt
+!models/best.pt

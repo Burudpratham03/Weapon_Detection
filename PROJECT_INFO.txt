@@ -1,0 +1,8 @@
+﻿Project: Knife + Weapon Detection
+Dataset Source: https://universe.roboflow.com/new-workspace-ketde/weapon-d98sm
+Classes Detected: Gun, Knife, rifle
+Accuracy (mAP@0.50): 78.95%
+Precision: 82.11%
+Recall: 72.65%
+
+This model was trained using YOLOv11 on a dataset of 818 training images, 293 validation images, and 59 test images.
