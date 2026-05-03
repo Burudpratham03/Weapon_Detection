@@ -2,8 +2,6 @@
 Weapon - v1 2022-02-21 10:25am
 ==============================
 
-This dataset was exported via roboflow.com on April 18, 2026 at 6:47 AM GMT
-
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
 * collect & organize images
