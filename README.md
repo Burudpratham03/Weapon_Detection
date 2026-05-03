@@ -29,18 +29,17 @@ The model was trained for **50 epochs** using the YOLOv11n architecture. Below a
 
 ---
 
-## 📂 Project Structure
-`	ext
-.
-├── data/               # Training, Validation, and Test datasets
-├── models/             # Pre-trained and Custom YOLO weights (.pt)
-│   └── best.pt         # Optimized weapon detection weights
-├── scripts/            # Core logic
-│   ├── live_camera_detect.py   # Real-time webcam inference
-│   └── train_test_weapon.py    # Training & evaluation pipeline
-├── data.yaml           # Dataset configuration (classes & paths)
-├── requirements.txt    # Required dependencies
-└── PROJECT_INFO.txt    # Technical summary for quick reference
+📂 Project Directory Structure
+ext/
+├── data/                     # Training, validation, and test datasets
+├── models/                   # Pre-trained and custom YOLO model weights
+│   └── best.pt               # Optimized weight file for weapon detection
+├── scripts/                  # Core logic and AI workflows
+│   ├── live_camera_detect.py # Real-time webcam inference
+│   └── train_test_weapon.py  # Training and evaluation pipeline
+├── data.yaml                 # Dataset config (class names and image paths)
+├── requirements.txt          # Python dependencies
+└── PROJECT_INFO.txt          # Quick technical summary (project metadata)
 `
 
 ---
